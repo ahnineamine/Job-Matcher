@@ -1,5 +1,4 @@
 import numpy as np
-import spacy
 from scipy.spatial import distance
 import gensim
 from gensim.corpora import Dictionary
@@ -12,15 +11,6 @@ import math
 class DocSim(object):
     def __init__(self, w2v_model):
         self.w2v_model = w2v_model
-    
-    def _keep_token(self,t):
-        return (t.is_alpha and 
-            not (t.is_space or t.is_punct or 
-                    t.is_stop or t.like_num))
-    
-    def _lemmatize_doc(self,doc):
-        return [ t.lemma_ for t in doc if self._keep_token(t)]
-    
     
       #Gensim to create a dictionary and filter out stop and infrequent words (lemmas).
     def _get_docs_dict(self, docs):
@@ -37,16 +27,6 @@ class DocSim(object):
             doc=gensim.utils.simple_preprocess(c)
             proc_result.append(doc)
         return proc_result  
-    
-    #def _preprocess(self, doc_list):
-        #Load spacy model
-        #nlp  = spacy.load('en')
-        #lemmatise docs
-        #docs = [self._lemmatize_doc(nlp(doc)) for doc in doc_list] 
-        #docs = self.gensim_preproc(doc_list)
-        #Get docs dictionary
-        #docs_dict = self._get_docs_dict(doc_list)
-        #return docs_dict
 
     def vector(self,word):
         try:
