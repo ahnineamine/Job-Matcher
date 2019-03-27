@@ -50,26 +50,6 @@ def get_data(file):
 def index():
     return 'Hello World!'
 
-@app.route('/processjson',methods=['POST'])
-def process_files():
-    data = request.get_json()
-    L_input=[]
-    L_index=[]
-    for cv in data['cv']:
-        index = cv['id']
-        #content = cv['exp']+' , '+ cv['skill']
-        content = cv['info']
-        L_input.append(content)   
-        L_index.append(index)
-
-    #content_offer = data['job']['title']+' , '+data['job']['desc']+' , '+data['job']['req']
-    for job in data['job']:
-        job_content = job['jobinfo']
-        L_input.append(job_content)
-        
-    #return jsonify(L_input)
-    return jsonify(ds.calculate_similarity(L_input,L_index))
-
 if __name__ == '__main__':
    port = int(os.environ.get("PORT", 5000))
    app.run(host='0.0.0.0', port=port, debug=True)
