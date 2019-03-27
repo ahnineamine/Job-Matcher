@@ -1,0 +1,75 @@
+from gensim.models.keyedvectors import KeyedVectors
+import json
+import os
+import io
+import unicodedata
+import flask
+from flask import request, jsonify
+from DocSim import DocSim
+
+#Initiate Flask application
+app = flask.Flask(__name__)
+#app.config["DEBUG"] = True
+
+#load word embeddings model
+model_path = "./models/word2vec_model_optim"
+model = KeyedVectors.load(model_path)
+
+#initiate DocSim object
+ds = DocSim(model)
+"""
+---this part is for Json file input---
+
+L_input=[]
+L_index=[]
+data = json.loads(open('test-data.json').read()) #name of json file in general
+for cv in data['cv']:
+    index = cv['id']
+    content = cv['exp']+','+ cv['skill']
+    L_input.append(content)   
+    L_index.append(index)
+
+content_offer = data['job']['title']+','+data['job']['desc']+','+data['job']['req']
+L_input.append(content_offer)
+
+"""
+def get_data(file):
+    with open(file) as f:
+        line_list=[]
+        index_list = []
+        for index,l in enumerate(f):
+            line = l.rstrip('\n')
+            line_uni = unicodedata.normalize("NFKD",line)
+            line_list.append(line_uni)
+            index_list.append(index)
+    return line_list,index_list
+
+
+#L_input,L_index= get_data('data/validation_data/validation_set_ITT.csv')
+
+@app.route('/processjson',methods=['POST'])
+def process_files():
+    data = request.get_json()
+    L_input=[]
+    L_index=[]
+    for cv in data['cv']:
+        index = cv['id']
+        #content = cv['exp']+' , '+ cv['skill']
+        content = cv['info']
+        L_input.append(content)   
+        L_index.append(index)
+
+    #content_offer = data['job']['title']+' , '+data['job']['desc']+' , '+data['job']['req']
+    for job in data['job']:
+        job_content = job['jobinfo']
+        L_input.append(job_content)
+        
+    #return jsonify(L_input)
+    return jsonify(ds.calculate_similarity(L_input,L_index))
+
+
+app.run(debug=True, use_reloader=False)
+#sim_scores = ds.calculate_similarity(L_input,L_index)
+
+#print(sim_scores)
+

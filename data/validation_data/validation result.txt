@@ -1,0 +1,68 @@
+
+ Validation data : 
+
+30 CVs : - 10 CV IT technicians ( ID 0 --> ID 9 )
+	 - 10 CV Data Scientist ( ID 10 --> ID 19 )
+	 - 10 CV Software Engineers ( ID 20 --> ID 29 )
+
+ Score results :
+
+0 ---> infinity, 0 being exact match and 'infinity' being total dismatch ( TS-SS method scale )
+
+ 
+ evaluation  process :
+
+take TOP 7 recommendations for every prediction. 
+
+Perfect score : 7/7 belong to the adequate type of CVS
+recommended score : (5 or 6)/7 belong to the adequate type of CVS
+satisfactory score : 4/7 belong to the adequate type of CVS
+mediocre score : 3/7 or less, belong to the adequate type of CVS
+
+--------------------------------------------
+
+ Job data science :
+
+Data Scientist, A Bachelor or Masters Degree in a highly quantitative field (Computer Science, Machine Learning, Operational Research, Statistics, Mathematics, etc.)or equivalent experience 4+ years of industry experience in predictive modeling, data science and analysisPrevious experience in a ML or data scientist role and a track record of building ML or DL models Experience using Python and/or R Knowledge of SparkMLAble to write production level code, which is well-written and explainable Experience using ML libraries, such as scikit-learn, caret, mlr, mllib Experience working with GPUs to develop models Experience handling terabyte size datasets Experience diving into data to discover hidden patterns Familiarity with using data visualization tools Knowledge and experience of writing and tuning SQL Past and current experience writing and speaking about complex technical concepts to broad audiences in a simplified format Experience giving data presentations Extended travel to customer locations may be required to deliver professional services, as needed. Major responsibilities include: Understand the customer’s business need and guide them to a solution using our AWS AI Services, AWS AI Platforms, AWS AI Frameworks, and AWS AI EC2 Instances . Assist customers by being able to deliver a ML / DL project from beginning to end, including understanding the business need, aggregating data, exploring data, building & validating predictive models, and deploying completed models to deliver business impact to the organization. Use Deep Learning frameworks like MXNet, Caffe 2, Tensorflow, Theano, CNTK, and Keras to help our customers build DL models. Use SparkML and Amazon Machine Learning (AML) to help our customers build ML models.Work with our Professional Services Big Data consultants to analyze,extract, normalize, and label relevant data.Work with our Professional Services DevOps consultants to help our customers operationalize models after they are built. Assist customers with identifying model drift and retraining models.Research and implement novel ML and DL approaches, including using FPGA.	
+
+ Results :
+
+[{'score': 212.00228838526914, 'id': 15}, {'score': 246.26302472250615, 'id': 11}, {'score': 350.68863559681984, 'id': 13}, {'score': 461.7433963750376, 'id': 10}, {'score': 478.2694710511164, 'id': 22}, {'score': 494.42397990962445, 'id': 16}, {'score': 573.3298997837851, 'id': 19}, {'score': 610.175981768262, 'id': 23}, {'score': 656.1495589837854, 'id': 29}, {'score': 740.7155976232729, 'id': 21}, {'score': 774.3868155067088, 'id': 26}, {'score': 785.1271427411071, 'id': 17}, {'score': 839.774179237142, 'id': 5}, {'score': 976.2064406213208, 'id': 25}, {'score': 1045.749053628872, 'id': 24}, {'score': 1233.5888472816773, 'id': 20}, {'score': 1290.5065696640502, 'id': 12}, {'score': 1338.7009419882916, 'id': 0}, {'score': 1340.556408234556, 'id': 18}, {'score': 1393.3335031959932, 'id': 27}, {'score': 1398.453065389961, 'id': 9}, {'score': 1422.5612638400353, 'id': 8}, {'score': 1517.1336594327277, 'id': 4}, {'score': 1767.2250290179873, 'id': 14}, {'score': 2015.592789277029, 'id': 28}, {'score': 2251.1688424078475, 'id': 3}, {'score': 2556.8524942784748, 'id': 1}, {'score': 3533.2244934797304, 'id': 2}, {'score': 3964.03062364477, 'id': 7}, {'score': 4628.30381068389, 'id': 6}]
+			
+ Score :
+
+6/7 , Recommended results
+
+
+--------------------------------------------
+
+ Job software engineer :
+
+Tasks and Responsibilities: Execute full lifecycle software development.Write well designed, testable, high quality, efficient code. Operate in an Agile development environment while collaborating with key stakeholders.Tailor and deploy software tools and processes.Contribute to shaping Honeywell offerings and your work environment. required skills : Strong experience developing software using various development tools/systems (examples: AngularJS, jQuery, HTML5, Java, JavaScript, CSS, C, C#, C++, Python, Perl, R, Rest, Niagara Framework) Strong Full stack experience required, Strong experience with Multiple software languages required,Web development experience required : Database experience preferred ,Embedded System experience preferred, Experience automating design, control, monitoring or analysis of industrial or buildings management systems preferably in IOT (Internet of Things) environment. Direct knowledge of HVAC and/or Refrigeration control principles is a plus. Hands-on expertise using cloud infrastructure services (Microsoft Azure, Amazon AWS or IBM Bluemix) Use of continuous development, integration and delivery tools (JIRA, Jenkins, Bamboo, Octopus, Selenium, GitHub, Docker) Understanding and experience applying Cyber Security best practices (CSSLP is a plus) Excellent communication and interpersonal skills and a positive attitude Knowledge of relational and non-relational databases and tools is a plus Experience executing Agile software methodology Knowledge of test-driven development Strong analytical skills
+
+ Results :
+
+[{'score': 327.50289985412087, 'id': 21}, {'score': 426.8475766191333, 'id': 26}, {'score': 429.29996108779164, 'id': 27}, {'score': 550.2352660534671, 'id': 23}, {'score': 595.2529688510458, 'id': 29}, {'score': 663.7770302213338, 'id': 20}, {'score': 729.7199636647, 'id': 22}, {'score': 793.690273415585, 'id': 11}, {'score': 871.6097386843934, 'id': 28}, {'score': 902.1320302332849, 'id': 24}, {'score': 916.098170670542, 'id': 15}, {'score': 962.8534108940215, 'id': 0}, {'score': 999.4734210280026, 'id': 5}, {'score': 1004.2592817691502, 'id': 13}, {'score': 1028.7261596185872, 'id': 25}, {'score': 1061.6798679187857, 'id': 3}, {'score': 1109.4149693452405, 'id': 16}, {'score': 1360.6632399093967, 'id': 19}, {'score': 1583.2971446514607, 'id': 4}, {'score': 1800.557763912869, 'id': 1}, {'score': 1837.8652134642932, 'id': 9}, {'score': 2090.155943118574, 'id': 8}, {'score': 2184.893069700813, 'id': 17}, {'score': 2595.372098932918, 'id': 10}, {'score': 2687.0368522349772, 'id': 2}, {'score': 3220.3872481238195, 'id': 12}, {'score': 3254.6269665159466, 'id': 7}, {'score': 3582.809015265562, 'id': 6}, {'score': 3877.328697107144, 'id': 14}, {'score': 5186.122023044051, 'id': 18}]
+
+ Score :
+
+7/7 , perfect results
+
+--------------------------------------------
+
+ Job IT Technician :
+
+Job Description and Requirements: Working under limited supervision, the IT Systems Engineer I provides level 1 technical support and customer service for our Automated Teller Machine (ATM), Enhanced Teller Machine (ETM), Teller Cash Recycler (TCR), Safe Deposit Electronic Vault Attendant (EVA), and Verifone/Verifast product environments.Responsibilities and Functions: Provide level 1 technical support for Branch ATM, ETM, TCR, EVA, and Verifone/Verifast environments to ensure maximum availability and acceptable levels of performance. Provide 24X7 on call support for member facing systems as necessary.Respond to service requests (SRs) from branches and make on-site visits as necessary. Install new equipment (ATMs, ETMs, Cash Recyclers, Verifone, etc.) and related software, working with vendor as necessary.Establish network connectivity for new equipment and troubleshoot communication problems. Install software patches and firmware updates for supported equipment. Set up and configure video capture, alarm monitoring, Netop and EDC (electronic data capture) for supported equipment.Train and mentor IT Branch Support Technicians.Document hardware/software installation processes. Help negotiate contracts for new equipment, upgrades, maintenance, etc. Assist with near and long term product assessments. Requirements: BS ME or equivalent work experience 1-3 years of job-related work experience Minimum of 3 years Automated Teller Machine and/or Cash Recycler experience in a product support engineering capacity Additional Skills and Certifications: Strong mechanical engineering skills. Some understanding of ISO message formats, message protocols, data encryption standards, and TCP/IP networking. Strong analytical, problem solving, communication, time management and organizational skills. Proficient with Microsoft Office software.
+
+ Results :
+
+[{'score': 242.5023552696334, 'id': 5}, {'score': 321.27855077225354, 'id': 1}, {'score': 367.7791030973184, 'id': 4}, {'score': 401.1818702610474, 'id': 2}, {'score': 470.26466798935786, 'id': 29}, {'score': 490.96103047938755, 'id': 9}, {'score': 504.4553565315654, 'id': 24}, {'score': 548.9684285372365, 'id': 0}, {'score': 623.5493284785327, 'id': 25}, {'score': 664.4495844790354, 'id': 3}, {'score': 817.3545041519726, 'id': 20}, {'score': 918.1015677618683, 'id': 15}, {'score': 1007.9352800053413, 'id': 23}, {'score': 1090.0535789444014, 'id': 8}, {'score': 1145.6909045978177, 'id': 6}, {'score': 1207.9417697198598, 'id': 13}, {'score': 1327.6381647269154, 'id': 7}, {'score': 1426.3622764079716, 'id': 16}, {'score': 1457.8505929908986, 'id': 22}, {'score': 1494.5071732363742, 'id': 26}, {'score': 1930.574701447829, 'id': 21}, {'score': 1986.0083570267177, 'id': 27}, {'score': 2294.146631417785, 'id': 11}, {'score': 2468.1899448083454, 'id': 19}, {'score': 4400.112728493146, 'id': 10}, {'score': 5494.4820451835085, 'id': 17}, {'score': 5653.667957570117, 'id': 28}, {'score': 7973.563893224359, 'id': 18}, {'score': 10799.856693115538, 'id': 12}, {'score': 15543.803666668176, 'id': 14}]
+
+ Score :
+
+5/7 , recommended results
+
+N.B : id 29 and id 24 are two software engineers that showed up among TOP 7 in more than 2 IT technician jobs, which means that these people are actually qualified to fill
+IT technician jobs. Human HR will  probably "FAIL" to detect this correspondance due to their CV's titles as software engineers.
+
+--------------------------------------------
