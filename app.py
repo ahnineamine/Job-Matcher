@@ -17,6 +17,11 @@ model = KeyedVectors.load(model_path)
 #initiate DocSim object
 ds = DocSim(model)
 
+
+@app.route('/')
+def index():
+    return 'access processjson in order to do your matching'
+
 @app.route('/processjson',methods=['POST'])
 def process_files():
     data = request.get_json()
