@@ -47,7 +47,7 @@ def get_data(file):
 
 #L_input,L_index= get_data('data/validation_data/validation_set_ITT.csv')
 
-@app.route('/processjson',methods=['POST'])
+@app.route('/',methods=['POST'])
 def process_files():
     data = request.get_json()
     L_input=[]
