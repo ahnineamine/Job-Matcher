@@ -48,6 +48,6 @@ The tools and requirments : ( details in requirements.txt )
  - deployment of api using heroku
 
 ## References :
-A Hybrid Geometric Approach for Measuring Similarity Level Among Documents and Document Clustering (Arash Heidarian & Michael J.Dinneen)
-Bidirectional Job Matching through Unsupervised Feature Learning ( M.Sc. Sisay Adugna Chala, Universität Siegen )
+- A Hybrid Geometric Approach for Measuring Similarity Level Among Documents and Document Clustering (Arash Heidarian & Michael J.Dinneen)
+- Bidirectional Job Matching through Unsupervised Feature Learning ( M.Sc. Sisay Adugna Chala, Universität Siegen )
 
