@@ -26,7 +26,7 @@ only the most fitting applicants for the vacancy.
 
 ## Technologies and tools :
 To build this AI-based application, I have chosen to adapt recent and efficient natural language processing (NLP) and deep learning 
-technologies for their wide use in the state-of-the-art NLP softwares. 
+technologies for their wide use in the state-of-the-art NLP softwares.   
 The tools and requirments : ( details in requirements.txt )
 - Programming language: Python
 - Python Libraries : Numpy,Scipy
