@@ -67,8 +67,10 @@ def process_files():
     #return jsonify(L_input)
     return jsonify(ds.calculate_similarity(L_input,L_index))
 
+if __name__ == '__main__':
+   port = int(os.environ.get("PORT", 5000))
+   app.run(debug=True, port=port)
 
-app.run(debug=True, use_reloader=False)
 #sim_scores = ds.calculate_similarity(L_input,L_index)
 
 #print(sim_scores)
