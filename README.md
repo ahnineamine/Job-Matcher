@@ -9,18 +9,16 @@ This is due to limitations in job seeker and vacancy data that pose difficulties
 job seekers, vacancies, or matching process (Furtmueller et al., 2011).
 
 ## Problem Statement :
-The job of choosing the most fitting candidates for a certain job, can be time and effort consuming due to the overwhelming
-number of applicants. Furthermore, HR managers may overlook some applicants that can actually be more fitting for a certain job, because of 
-lack of deep knowledge in the sector of application. All of this can cause tremendous loss for the entreprise, in terms of time and money.
+The process of choosing the most fitting candidates for a certain job, can be time and effort consuming due to the overwhelming
+number of applicants. Furthermore, HR managers may overlook some applicants that can actually be more fitting for a the vacancy, because of lack of deep knowledge in the sector of application. All of this can cause tremendous loss for the company, in terms of time and money.
 
-statistics showed that companies suffer from employment missmatch, and they end firing a good portion of the applicants just few months 
-after hiring. which cause a high level of unemployment and at the same time alot of unfilled job vacancies.
+statistics showed that companies suffer from employment missmatch, and they end up firing a good portion of the applicants just few months after hiring. which cause a high level of unemployment and at the same time alot of unfilled job vacancies.
 
 ## Goals and objectives
-Artificial Intelligence, like everything else, are also heavily influencing interviewing and assessment of candidates, not only 
+Artificial Intelligence, like everything else, is also heavily influencing interviewing and assessment of candidates, not only 
 resulting in better recruitment automation but also making the hiring process more error free.
 I have chosen to build an intelligent solution, which has the ability to automatically recommend the most suitable CVs for 
-a company's job offers.
+a company's job offer.
 this solution will optimize the work of the HR department. it examines more content, efficiently and in much less time, presenting 
 only the most fitting applicants for the vacancy.
 !! I have chosen the IT department as context for my project. The project is only relevent for IT job matching ( for now ) !!
@@ -50,6 +48,6 @@ deployment of git repo :
  7- deployment of api using heroku
 
 ## References :
-A Hybrid Geometric Approach for Measuring Similarity Level Among Documents and Document Clustering ( Arash Heidarian & Michael J. Dinneen )
+A Hybrid Geometric Approach for Measuring Similarity Level Among Documents and Document Clustering ( Arash Heidarian & Michael J.Dinneen )
 Bidirectional Job Matching through Unsupervised Feature Learning ( M.Sc. Sisay Adugna Chala, Universität Siegen )
 
