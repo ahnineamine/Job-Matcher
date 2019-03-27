@@ -36,18 +36,19 @@ The tools and requirments : ( details in requirements.txt )
 
 ## Project steps and Code :
 train_word2vec.ipynb :
- 1- Data Collection for indeed.com ( over 50 000 CVs )
- 2- Data preocessing using gensim
- 3- using gensim's word2vec implementation.
+ - Data Collection for indeed.com ( over 50 000 CVs )
+ - Data preocessing using gensim
+ - using gensim's word2vec implementation.
 DocSim.py :
- 4- Inference using TF-IDF weighted vectors
- 5- Matching and recommandation using TS-SS method
+ - Inference using TF-IDF weighted vectors
+ - Matching and recommandation using TS-SS method
 app.py :
- 6- implementation of Flask api ( input json + output json )
+ - implementation of Flask api ( input json + output json )
 deployment of git repo :
- 7- deployment of api using heroku
+ - deployment of api using heroku
 
 ## References :
 A Hybrid Geometric Approach for Measuring Similarity Level Among Documents and Document Clustering ( Arash Heidarian & Michael J.Dinneen )
+
 Bidirectional Job Matching through Unsupervised Feature Learning ( M.Sc. Sisay Adugna Chala, Universität Siegen )
 
