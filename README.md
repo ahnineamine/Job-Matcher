@@ -20,7 +20,8 @@ resulting in better recruitment automation but also making the hiring process mo
 I have chosen to build an intelligent solution, which has the ability to automatically recommend the most suitable CVs for 
 a company's job offer.
 this solution will optimize the work of the HR department. it examines more content, efficiently and in much less time, presenting 
-only the most fitting applicants for the vacancy.
+only the most fitting applicants for the vacancy.  
+
 !! I have chosen the IT department as context for my project. The project is only relevent for IT job matching ( for now ) !!
 
 ## Technologies and tools :
