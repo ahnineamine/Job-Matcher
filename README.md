@@ -10,9 +10,9 @@ job seekers, vacancies, or matching process (Furtmueller et al., 2011).
 
 ## Problem Statement :
 The process of choosing the most fitting candidates for a certain job, can be time and effort consuming due to the overwhelming
-number of applicants. Furthermore, HR managers may overlook some applicants that can actually be more fitting for a the vacancy, because of lack of deep knowledge in the sector of application. All of this can cause tremendous loss for the company, in terms of time and money.
+number of applicants. Furthermore, HR managers may overlook some applicants that can actually be more fitting for the vacancy, because of lack of deep knowledge in the sector of application. All of this can cause tremendous loss for the company, in terms of time and money.
 
-statistics showed that companies suffer from employment missmatch, and they end up firing a good portion of the applicants just few months after hiring. which cause a high level of unemployment and at the same time alot of unfilled job vacancies.
+statistics showed that companies suffer from severe employment missmatch, and they end up firing a good portion of the applicants just few months after hiring. which cause a high level of unemployment and at leave at the same time alot of unfilled job vacancies.
 
 ## Goals and objectives
 Artificial Intelligence, like everything else, is also heavily influencing interviewing and assessment of candidates, not only 
