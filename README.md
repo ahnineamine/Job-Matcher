@@ -47,6 +47,17 @@ The tools and requirments : ( details in requirements.txt )
  - implementation of Flask api ( input json + output json )
 ### deployment of git repo :
  - deployment of api using heroku
+### API endpoint :
+here is the endpoint In order to be able to consume the API:  
+https://job-matcher.herokuapp.com/processjson
+### how to use :
+the format of json file to be sent to the API is the following:   
+![Screenshot](input.png)   
+    
+the format of json file that will sent back from the API is the following:   
+![Screenshot](output.png) 
+
+
 
 ## References :
 - A Hybrid Geometric Approach for Measuring Similarity Level Among Documents and Document Clustering (Arash Heidarian & Michael J.Dinneen)
