@@ -52,10 +52,10 @@ here is the endpoint In order to be able to consume the API:
 https://job-matcher.herokuapp.com/processjson
 ### how to use :
 the format of json file to be sent to the API is the following:   
-![Screenshot](input.png)   
+![input](https://user-images.githubusercontent.com/38895133/57663354-32b10a00-75e3-11e9-9424-7e0503ca7142.PNG)   
     
 the format of json file that will sent back from the API is the following:   
-![Screenshot](output.png) 
+![output](https://user-images.githubusercontent.com/38895133/57663356-32b10a00-75e3-11e9-8c88-d5fc6b13a98c.PNG)
 
 
 
