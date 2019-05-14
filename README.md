@@ -47,10 +47,10 @@ The tools and requirments : ( details in requirements.txt )
  - implementation of Flask api ( input json + output json )
 ### deployment of git repo :
  - deployment of api using heroku
-### API endpoint :
+## API endpoint :
 here is the endpoint In order to be able to consume the API:  
 https://job-matcher.herokuapp.com/processjson
-### how to use :
+## how to use :
 the format of json file to be sent to the API is the following:   
 ![input](https://user-images.githubusercontent.com/38895133/57663354-32b10a00-75e3-11e9-9424-7e0503ca7142.PNG)   
     
