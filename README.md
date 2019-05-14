@@ -55,7 +55,10 @@ the format of json file to be sent to the API is the following:
 ![input](https://user-images.githubusercontent.com/38895133/57663354-32b10a00-75e3-11e9-9424-7e0503ca7142.PNG)   
     
 the format of json file that will sent back from the API is the following:   
-![output](https://user-images.githubusercontent.com/38895133/57663356-32b10a00-75e3-11e9-8c88-d5fc6b13a98c.PNG)
+![output](https://user-images.githubusercontent.com/38895133/57663356-32b10a00-75e3-11e9-8c88-d5fc6b13a98c.PNG)   
+   
+the score goes from 0 to "infinity", 0 being completly similar !   
+the resumes will be order from the most adequat to the least adequat.
 
 
 
